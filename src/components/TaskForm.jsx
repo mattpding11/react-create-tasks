@@ -7,7 +7,6 @@ const TaskForm = ({ createTaskProp, deletedAllTasks }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Limpia el formulario
     e.target.reset();
 
     const newTask = {
