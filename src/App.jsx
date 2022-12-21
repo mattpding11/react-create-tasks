@@ -14,7 +14,6 @@ const App = () => {
       }
     } else {
       localStorage.setItem("Tasks", JSON.stringify(TasksData));
-      console.log("key reada");
     }
   }, []);
 
